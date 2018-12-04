@@ -4,31 +4,6 @@ class buzau(BotPlugin):
     """O Juaum que almentu"""    
 
 
-#------------------------------------------------------------------------------
-#
-#    @botcmd
-#    def forquilinha(self, msg, args):
-#        """Perdido na Cidade"""
-#        yield "Ola, gostaria de saber o horario ou a rota do Forquilinha?"
-#        msg.ctx['horario'] = 'ainda nao esta disponivel'
-#        msg.ctx['rota'] = 'ainda nao esta disponivel'
-#
-#    @botcmd
-#    def horario(self, msg, args, flow_only=True):
-#        """Horario do Onibus"""
-#        try:
-#            yield "O horario " + msg.ctx['horario']
-#        except:
-#            yield "Primeiro informe o onibus."
-#
-#    @botcmd
-#    def rota(self, msg ,args, flow_only=True):
-#        """Rota Forquilinha"""
-#        try:
-#            yield "A rota " + msg.ctx['rota']
-#        except:
-#            yield "Primeiro informe o onibus"
-#-------------------------------------------------------------------------------
 
     @botcmd
     def start(self, msg, args):

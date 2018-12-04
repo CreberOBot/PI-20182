@@ -1,0 +1,9 @@
+[Core]
+Name = BuzauFlow
+Module = buzau_flow
+
+[Python]
+Version = 3
+
+[Documentation]
+Description = Perdidos na Cidade

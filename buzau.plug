@@ -1,0 +1,9 @@
+[Core]
+Name = buzau
+Module = buzau
+
+[Python]
+Version = 3
+
+[Documentation]
+Description = Ajuda com o Buzau
